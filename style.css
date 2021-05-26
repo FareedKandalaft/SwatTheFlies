@@ -6,11 +6,29 @@
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-
+  background-color: #516dff;
+  color: white;
   height: 100vh;
   overflow: hidden;
   margin: 0;
   text-align: center;
+}
+
+.btn {
+  border: 0;
+  background-color: white;
+  color: #516dff;
+  padding: 15px 20px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 .screen {
@@ -20,4 +38,10 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
+}
+
+.choose-insect-btn img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
